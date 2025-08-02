@@ -1,0 +1,47 @@
+ General Description
+ Synapse – Legal Analyzer is an AI-powered platform that automates legal document review using
+ IBM Watson and Granite LLM. It extracts, classifies, and summarizes clauses from contracts, making
+ them easy to understand. Users can identify missing or risky clauses, compare document versions,
+ and get real-time legal insights. An interactive AI assistant provides contextual explanations and
+ suggestions. The system supports smart search using natural language queries. Designed with a
+ clean, responsive UI, Synapse simplifies legal workflows. It saves time, reduces costs, and makes
+ legal understanding accessible to all.
+ Novelty / Uniqueness:
+ Synapse offers clause-level intelligence, not just document summarization, making analysis deeper
+ and more actionable. It detects missing clauses and benchmarks existing ones against industry
+ standards. The AI assistant is contextual and interactive, not static. Smart version comparison
+ provides clause-level redlining and impact assessment. Natural language search enables semantic
+ queries across multiple documents. Real-time processing with confidence scores adds transparency
+ to AI decisions. These features combine legal domain knowledge with modern GenAI capabilities.
+ Business / Social Impact:
+ Socially, Synapse promotes legal accessibility by simplifying complex terms for non-experts, helping
+ startups and individuals understand contracts. It supports access to justice by reducing reliance on
+ expensive legal consultations. On the business side, it saves time and reduces legal costs while
+enhancing compliance. Clause benchmarking and risk scoring protect organizations from liability.
+ The smart assistant and search tools enable fast, insightful document review. Overall, it delivers
+ fairness, speed, and security to legal workflows.
+ Technology Architecture:
+ Current Tech Stack
+ Frontend:
+ React 18 with TypeScript
+ Vite (build tool)
+ Tailwind CSS (styling)
+ shadcn/ui (UI components)
+ React Router (navigation)
+ React Query (data fetching)
+ Lucide React (icons)
+ Backend:
+ Supabase (database, auth, storage)
+ Supabase Edge Functions (serverless functions)
+ Additional Libraries:
+ React Hook Form (forms)
+ Zod (validation)
+ Date-fns (date handling)
+ Recharts (charts/analytics)
+ Scope of the Work:
+ Synapse includes modules for document ingestion, clause extraction, classification, summarization,
+ risk scoring, and smart search. It also offers document comparison with redline tracking, an AI legal
+ assistant, and a responsive dashboard. The frontend is built with React 18, Tailwind CSS, and
+ shadcn/ui, while Supabase powers backend auth, storage, and database. IBM Watson and Granite
+ handle NLP and summarization tasks. The system supports real-time clause analysis, scoring, and
+ legal chat interaction. Advanced features include compliance benchmarking and impact analysis.
